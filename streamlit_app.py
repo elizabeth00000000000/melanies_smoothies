@@ -24,6 +24,7 @@ ingredients_string = ''
 
 import requests
 
+pd_df = my_dataframe.to_pandas()
 
 if ingredients_list: 
     ingredients_string = ''
